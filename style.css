@@ -8,6 +8,13 @@ body {
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 15px;
+}
 header,
 footer {
   background: #6c63ff;
@@ -62,6 +69,9 @@ h2,
 a {
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 section {
   padding: 100px 0;
