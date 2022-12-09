@@ -15,6 +15,17 @@ footer {
 header {
   height: 80px;
 }
+h1 {
+  font-weight: 700;
+  font-size: 44px;
+  color: #2f2e41;
+}
+
+h1,
+h2,
+.my-button {
+  text-transform: uppercase;
+}
 .my-button {
   border: 2px solid #ffffff;
   border-radius: 5px;
@@ -23,6 +34,11 @@ header {
   background-color: transparent;
   font-weight: 500;
   font-size: 16px;
-  text-transform: uppercase;
   color: #ffffff;
+}
+.card {
+  background: #ffffff;
+  border: 2px solid #e7e7e7;
+  border-radius: 5px;
+  width: 370px;
 }
