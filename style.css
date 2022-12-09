@@ -26,7 +26,8 @@ h1 {
   margin-bottom: 70px;
 }
 h2 {
-  max-width: 300px;
+  max-width: 305px;
+  text-align: center;
 }
 
 h1,
@@ -70,4 +71,12 @@ section {
 }
 li {
   padding: 9px 15px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+footer {
+  padding: 20px 0;
 }
