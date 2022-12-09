@@ -1,6 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playfair Display", serif;
 }
 header,
 footer {
@@ -14,4 +18,5 @@ header {
   border-radius: 5px;
   width: 120px;
   height: 40px;
+  background-color: transparent;
 }
